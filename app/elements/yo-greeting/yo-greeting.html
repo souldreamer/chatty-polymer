@@ -3,14 +3,18 @@
 <polymer-element name="yo-greeting" attributes="">
   <template>
     <link rel="stylesheet" href="yo-greeting.css">
-    <h1>{{ greeting }}, {{ greeting }}!</h1>
+    <h1>{{greeting}}_{{greetingUpper}}</h1>
     <span>Update text to change the greeting.</span>
-    <input type="text" value="{{ greeting }}">
+    <input type="text" value="{{greeting}}">
   </template>
   <script>
     (function () {
       Polymer({
-        greeting : '\'Allo'
+        greeting : '\'Allo',
+        toUpper: function (value) { return String.prototype.toUpperCase.call(value); },
+        computed: {
+          greetingUpper: 'toUpper(greeting)'
+        }
       });
     })();
   </script>

@@ -285,9 +285,9 @@ module.exports = function (grunt) {
       // Update `url` below to the public URL for your site
       mobile: {
         options: {
-          url: "https://developers.google.com/web/fundamentals/",
-          locale: "en_GB",
-          strategy: "mobile",
+          url: 'https://developers.google.com/web/fundamentals/',
+          locale: 'en_GB',
+          strategy: 'mobile',
           threshold: 80
         }
       }
@@ -308,7 +308,7 @@ module.exports = function (grunt) {
       'clean:server',
       'sass:server',
       'copy:styles',
-      'autoprefixer:server',
+//      'autoprefixer:server',
       'connect:livereload',
       'open',
       'watch'
