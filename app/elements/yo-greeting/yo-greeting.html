@@ -1,9 +1,9 @@
-<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../libs/polymer/polymer.html">
 
 <polymer-element name="yo-greeting" attributes="">
   <template>
     <link rel="stylesheet" href="yo-greeting.css">
-    <h1>{{greeting}}_{{greetingUpper}}</h1>
+    <h1>{{greeting}}_{{greeting|toUpper}}</h1>
     <span>Update text to change the greeting.</span>
     <input type="text" value="{{greeting}}">
   </template>

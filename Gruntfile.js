@@ -308,7 +308,7 @@ module.exports = function (grunt) {
       'clean:server',
       'sass:server',
       'copy:styles',
-//      'autoprefixer:server',
+      'autoprefixer:server',
       'connect:livereload',
       'open',
       'watch'
