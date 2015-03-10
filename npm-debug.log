@@ -1,0 +1,91 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'Polymer/core-icon' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'Polymer/core-icon', null ]
+7 verbose cache add name=undefined spec="Polymer/core-icon" args=["Polymer/core-icon",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'Polymer/core-icon',
+8 verbose parsed url   path: 'Polymer/core-icon',
+8 verbose parsed url   href: 'Polymer/core-icon' }
+9 silly lockFile d833154c-Polymer-core-icon Polymer/core-icon
+10 verbose lock Polymer/core-icon C:\Users\PC\AppData\Roaming\npm-cache\d833154c-Polymer-core-icon.lock
+11 info maybeGithub Attempting Polymer/core-icon from git://github.com/Polymer/core-icon
+12 silly lockFile 316e66c3-git-github-com-Polymer-core-icon git://github.com/Polymer/core-icon
+13 verbose lock git://github.com/Polymer/core-icon C:\Users\PC\AppData\Roaming\npm-cache\316e66c3-git-github-com-Polymer-core-icon.lock
+14 verbose addRemoteGit [ 'git://github.com/Polymer/core-icon', 'master' ]
+15 verbose git clone git://github.com/Polymer/core-icon Cloning into bare repository 'C:\Users\PC\AppData\Roaming\npm-cache\_git-remotes\git-github-com-Polymer-core-icon-316e66c3'...
+16 verbose git fetch -a origin (git://github.com/Polymer/core-icon)
+17 silly verifyOwnership skipping for windows
+18 verbose git rev-list -n1 master 9441fa3f998b4238d018086014df1e52abbe10f2
+19 verbose resolved git url git://github.com/Polymer/core-icon#9441fa3f998b4238d018086014df1e52abbe10f2
+20 verbose tar unpack C:\Users\PC\AppData\Local\Temp\npm-8824-JImhQXlZ\1424761583577-0.9153950402978808\tmp.tgz
+21 silly lockFile a995589c--9153950402978808-tmp-tgz-unpack tar://C:\Users\PC\AppData\Local\Temp\npm-8824-JImhQXlZ\1424761583577-0.9153950402978808\tmp.tgz-unpack
+22 verbose lock tar://C:\Users\PC\AppData\Local\Temp\npm-8824-JImhQXlZ\1424761583577-0.9153950402978808\tmp.tgz-unpack C:\Users\PC\AppData\Roaming\npm-cache\a995589c--9153950402978808-tmp-tgz-unpack.lock
+23 silly lockFile f8808d1f-83577-0-9153950402978808-tmp-tgz tar://C:\Users\PC\AppData\Local\Temp\npm-8824-JImhQXlZ\1424761583577-0.9153950402978808\tmp.tgz
+24 verbose lock tar://C:\Users\PC\AppData\Local\Temp\npm-8824-JImhQXlZ\1424761583577-0.9153950402978808\tmp.tgz C:\Users\PC\AppData\Roaming\npm-cache\f8808d1f-83577-0-9153950402978808-tmp-tgz.lock
+25 silly gunzTarPerm modes [ '777', '666' ]
+26 silly gunzTarPerm extractEntry
+27 silly gunzTarPerm modified mode [ '', 509, 511 ]
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+30 silly gunzTarPerm extractEntry bower.json
+31 silly gunzTarPerm modified mode [ 'bower.json', 436, 438 ]
+32 silly gunzTarPerm extractEntry core-icon.css
+33 silly gunzTarPerm modified mode [ 'core-icon.css', 436, 438 ]
+34 silly gunzTarPerm extractEntry core-icon.html
+35 silly gunzTarPerm modified mode [ 'core-icon.html', 436, 438 ]
+36 silly gunzTarPerm extractEntry demo.html
+37 silly gunzTarPerm modified mode [ 'demo.html', 436, 438 ]
+38 silly gunzTarPerm extractEntry index.html
+39 silly gunzTarPerm modified mode [ 'index.html', 436, 438 ]
+40 silly gunzTarPerm extractEntry metadata.html
+41 silly gunzTarPerm modified mode [ 'metadata.html', 436, 438 ]
+42 silly lockFile a995589c--9153950402978808-tmp-tgz-unpack tar://C:\Users\PC\AppData\Local\Temp\npm-8824-JImhQXlZ\1424761583577-0.9153950402978808\tmp.tgz-unpack
+43 silly lockFile a995589c--9153950402978808-tmp-tgz-unpack tar://C:\Users\PC\AppData\Local\Temp\npm-8824-JImhQXlZ\1424761583577-0.9153950402978808\tmp.tgz-unpack
+44 silly lockFile f8808d1f-83577-0-9153950402978808-tmp-tgz tar://C:\Users\PC\AppData\Local\Temp\npm-8824-JImhQXlZ\1424761583577-0.9153950402978808\tmp.tgz
+45 silly lockFile f8808d1f-83577-0-9153950402978808-tmp-tgz tar://C:\Users\PC\AppData\Local\Temp\npm-8824-JImhQXlZ\1424761583577-0.9153950402978808\tmp.tgz
+46 silly lockFile 316e66c3-git-github-com-Polymer-core-icon git://github.com/Polymer/core-icon
+47 silly lockFile 316e66c3-git-github-com-Polymer-core-icon git://github.com/Polymer/core-icon
+48 info maybeGithub Attempting Polymer/core-icon from git+ssh://git@github.com:Polymer/core-icon
+49 silly lockFile b019432f-git-github-com-Polymer-core-icon git@github.com:Polymer/core-icon
+50 verbose lock git@github.com:Polymer/core-icon C:\Users\PC\AppData\Roaming\npm-cache\b019432f-git-github-com-Polymer-core-icon.lock
+51 verbose addRemoteGit [ 'git@github.com:Polymer/core-icon', 'master' ]
+52 error git clone git@github.com:Polymer/core-icon Cloning into bare repository 'C:\Users\PC\AppData\Roaming\npm-cache\_git-remotes\git-github-com-Polymer-core-icon-b019432f'...
+52 error git clone git@github.com:Polymer/core-icon ssh: connect to host github.com port 22: Bad file number
+52 error git clone git@github.com:Polymer/core-icon fatal: Could not read from remote repository.
+52 error git clone git@github.com:Polymer/core-icon
+52 error git clone git@github.com:Polymer/core-icon Please make sure you have the correct access rights
+52 error git clone git@github.com:Polymer/core-icon and the repository exists.
+53 silly lockFile b019432f-git-github-com-Polymer-core-icon git@github.com:Polymer/core-icon
+54 silly lockFile b019432f-git-github-com-Polymer-core-icon git@github.com:Polymer/core-icon
+55 silly lockFile d833154c-Polymer-core-icon Polymer/core-icon
+56 silly lockFile d833154c-Polymer-core-icon Polymer/core-icon
+57 error addLocal Could not install Polymer/core-icon
+58 error Error: ENOENT, stat 'd:\projects\chatty-polymer\Polymer\core-icon'
+59 error If you need help, you may report this *entire* log,
+59 error including the npm and node versions, at:
+59 error     <http://github.com/npm/npm/issues>
+60 error System Windows_NT 6.2.9200
+61 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "Polymer/core-icon"
+62 error cwd d:\projects\chatty-polymer
+63 error node -v v0.10.32
+64 error npm -v 1.4.28
+65 error path d:\projects\chatty-polymer\Polymer\core-icon
+66 error code ENOENT
+67 error errno 34
+68 verbose exit [ 34, true ]

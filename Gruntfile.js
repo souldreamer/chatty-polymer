@@ -66,7 +66,7 @@ module.exports = function (grunt) {
     // Compiles Sass to CSS and generates necessary files if requested
     sass: {
       options: {
-        loadPath: 'bower_components'
+        loadPath: 'libs'
       },
       dist: {
         options: {
@@ -106,7 +106,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.dist %>',
-          src: ['**/*.css', '!bower_components/**/*.css'],
+          src: ['**/*.css', '!libs/**/*.css'],
           dest: '<%= yeoman.dist %>'
         }]
       }
@@ -241,7 +241,7 @@ module.exports = function (grunt) {
             'elements/**',
             '!elements/**/*.scss',
             'images/{,*/}*.{webp,gif}',
-            'bower_components/**'
+            'libs/**'
           ]
         }]
       },
